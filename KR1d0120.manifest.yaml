@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR1d0120/v1
+canonical_location: https://kanripo.org/bkk/KR1d0120/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 蔡氏喪服譜一卷
+  identifiers:
+    krp: KR1d0120
+  tags:
+    kr-categories: KR1d
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1d0120.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR1d0120_001.yaml, hash: 'sha256:958aec8c6d8ff284c410df1563eb16913acbd34c09c378af0b5e01841a50a774'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1d0120_001.markers.yaml, hash: 'sha256:e43d133590481e6d781364929eaea2416b5734c9caeac104356334d695b454a1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1d0120_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2441
+  label: 蔡氏喪服譜
+  type: section
+  level: 1
+hash: sha256:ff44aec3810970d386e87086ed03dbe15491b9f478346bf482fc9e3688a450b0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

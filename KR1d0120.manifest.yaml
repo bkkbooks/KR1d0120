@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR1d0120/v1
 canonical_location: https://kanripo.org/bkk/KR1d0120/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 蔡氏喪服譜一卷
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR1d0120_001.yaml, hash: 'sha256:edaf71b3710ce555b97c5f8d1c21064c13bd6ef79dd642e628360582021d5cef'}
+  - {seq: 1, filename: KR1d0120_001.yaml, hash: 'sha256:4080e3d600a9f97e73e3929870d18fcd9dd4a33351b64193ce0c5566695fd577'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR1d0120_001.markers.yaml, hash: 'sha256:2fb61008d2bfffa0fee21d67e15f0d361a7e9318ef856cb5f001ed4edf1ab27a'}
+  - {seq: 1, role: markers, filename: assets/KR1d0120_001.markers.yaml, hash: 'sha256:0a485a4102c53e6ba1470303d07c87246bbf6fa77800c0c7861b3697893bc634'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 蔡氏喪服譜
   type: section
   level: 1
-hash: sha256:d443cdf024c2c92d83746557f94b2030d9970a7b1606f0b77820006157b30f76
+hash: sha256:ed7c38aaf94847088c49eac92016427b1d5da838f23215ef23af4d422316663f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
